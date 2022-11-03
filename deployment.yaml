@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: mynginx
 spec:
-  replicas: 2
+  replicas: 5
   selector:
     matchLabels:
       run: mynginx
