@@ -15,7 +15,8 @@ spec:
     spec:
       containers:
       - name: canary-rollouts-demo
-        image: ghcr.io/shclub/simplecolorapi:2.0
+#         image: ghcr.io/shclub/simplecolorapi:2.0
+        image: ghcr.io/yes506/edu1:master
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
